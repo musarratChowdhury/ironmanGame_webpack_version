@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../Assets/fonts/Poppins-Bold.ttf");
+}
+body {
+  background-image: url("../Assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: white;
+  font-family: Poppins;
+}
+canvas {
+  width: 1000px;
+  height: 500px;
+  margin: 30px;
+  position: relative;
+  background: white;
+  border: 3px solid black;
+}
+#record {
+  font-size: 40px;
+  border: 3px solid white;
+}
+.description {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.scoreboard {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  top: 40px;
+  background-color: #b71c1c;
+  color: gold;
+  text-align: center;
+  left: 1043px;
+  font-size: 40px;
+  border: 3px solid gold;
+}
+
+.points {
+  background-color: #0d47a1;
+  width: 200px;
+  color: #fff;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.gameover {
+  position: absolute;
+  z-index: 10;
+  top: 40px;
+  left: 40px;
+  width: 1312px;
+  height: 506px;
+  background-color: black;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+button {
+  display: block;
+  padding: 0px;
+  margin: auto;
+  width: 200px;
+  height: 60px;
+  background-color: gold;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: Poppins;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:active {
+  display: block;
+  padding: 0px;
+  margin: auto;
+  width: 200px;
+  height: 60px;
+  background-color: rgba(255, 217, 0, 0.363);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: Poppins;
+  font-size: 20px;
+  cursor: pointer;
+}

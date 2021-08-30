@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IronMan</title>
+    <!-- facicon here -->
+
+    <!-- css links here -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- js scripts links here -->
+
+    <script src="./dist/bundle.js" defer></script>
+  </head>
+  <body>
+    <!-- container div -->
+    <div class="game-container">
+      <div class="score" id="score"></div>
+      <canvas id="game-canvas">
+        Your Browser Doesn't support HTML5 canvas!
+      </canvas>
+    </div>
+    <!-- copied from the vessel -->
+    <div class="gameover hide">
+      <h1>Game Over</h1>
+      <h2>
+        Your score:
+        <div class="points">0</div>
+      </h2>
+      <button onclick="window.location.reload(true);">Play again</button>
+    </div>
+    <div class="scoreboard">
+      SCORE
+      <div class="points">0</div>
+    </div>
+    <div class="description">
+      Arrows - move the Iron Man <br />
+      Space - shoot
+    </div>
+    <br />
+    <div class="missiles"></div>
+  </body>
+</html>
